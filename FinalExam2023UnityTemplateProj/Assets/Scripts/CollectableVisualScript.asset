@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: CollectableVisualScript
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":216.3336,"y":26.00006},"zoom":0.7472527,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-147.0,"y":-59.0},"guid":"fc4969f5-9315-43e4-81d8-ef4db99299c6","$version":"A","$type":"Unity.VisualScripting.OnTriggerEnter","$id":"9"},{"chainable":false,"parameterNames":["message"],"member":{"name":"Log","parameterTypes":["System.Object"],"targetType":"UnityEngine.Debug","targetTypeName":"UnityEngine.Debug","$version":"A"},"defaultValues":{},"position":{"x":101.0,"y":-60.0},"guid":"43054e0f-ef5a-4e8a-b938-8eeaffa83ef1","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"type":"System.String","value":{"$content":"Touched
+      collectable!","$type":"System.String"},"defaultValues":{},"position":{"x":-96.0,"y":58.0},"guid":"3db8d27c-9ca6-42c3-89a5-85fd3b5f8765","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"15"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"400cbb97-5643-41a8-8e6e-a77787a96bf8","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"%message","guid":"2e073758-00a6-44d3-a20d-aae6faed305e","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-195.3332,"yMin":-131.0,"xMax":628.0003,"yMax":183.0001},"label":"Pick
+      up collectable","comment":null,"color":{"r":0.9810123,"g":1.0,"b":0.0,"a":1.0},"guid":"a351ce6a-965a-4814-843f-1518ebe7b90a","$version":"A","$type":"Unity.VisualScripting.GraphGroup"},{"position":{"xMin":251.0,"yMin":-50.0,"xMax":449.0,"yMax":34.0},"title":"WRITE
+      HERE","body":"WRITE YOUR OWN LOGIC HERE!\nIncrement a count, update UI","colorTheme":"Classic","guid":"e75529d1-8176-427f-805e-16532e091dae","$type":"Unity.VisualScripting.StickyNote"}],"$version":"A"}}'
+    _objectReferences: []

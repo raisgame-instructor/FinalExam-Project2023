@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: GoalVisualScript
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":135.7004,"y":44.5},"zoom":0.7884058,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-258.0,"y":-53.0},"guid":"f835e368-0164-4410-a0ae-b767fb1b61b5","$version":"A","$type":"Unity.VisualScripting.OnTriggerEnter","$id":"9"},{"chainable":false,"parameterNames":["sceneName"],"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"","$type":"System.String"}},"position":{"x":584.0,"y":-51.0},"guid":"711cec04-4cea-4d60-993e-499da741f49a","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"level_name_to_switch_to","$type":"System.String"},"object":null},"position":{"x":347.0,"y":74.0},"guid":"1b6a4406-d7db-4cfd-be66-6ddb2b35ecd6","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"15"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"7fc4cc2e-ac49-4a5c-b61d-a3f3b559d72d","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"%sceneName","guid":"1a84e626-8a0a-48df-890b-caefc858cafd","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-281.0,"yMin":-103.0,"xMax":733.9817,"yMax":192.0},"label":"Load
+      new level scene","comment":null,"color":{"r":1.0,"g":0.0,"b":0.8795767,"a":1.0},"guid":"d1c4dfa7-937d-4a90-b6ac-4057e7574f4a","$version":"A","$type":"Unity.VisualScripting.GraphGroup"},{"position":{"xMin":4.0,"yMin":16.0,"xMax":276.0,"yMax":81.0},"title":"Check
+      collectables","body":"Write code here to check if player has enough collectables
+      to load next mission","colorTheme":"Classic","guid":"a209b0e5-0c08-4138-9d98-b74845095929","$type":"Unity.VisualScripting.StickyNote"}],"$version":"A"}}'
+    _objectReferences: []
